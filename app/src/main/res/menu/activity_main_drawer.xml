@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="@string/menu_home" />
+    <item
+        android:id="@+id/nav_registro"
+        android:title="@string/menu_registro"/>
+
+    <item android:title="@string/menu_circolari">
+        <menu>
+            <item
+                android:id="@+id/nav_circ_all"
+
+                android:title="@string/menu_circ_all" />
+            <item
+                android:id="@+id/nav_circ_fam"
+
+                android:title="@string/menu_circ_fam" />
+            <item
+                android:id="@+id/nav_circ_doc"
+
+                android:title="@string/menu_circ_doc" />
+            <item
+                android:id="@+id/nav_circ_ata"
+
+                android:title="@string/menu_circ_ata" />
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_orari">
+        <menu>
+            <item
+                android:id="@+id/nav_orario_diurni"
+                android:title="@string/menu_orario_diurni" />
+            <item
+                android:id="@+id/nav_orario_serali"
+                android:title="@string/menu_orario_serali" />
+        </menu>
+    </item>
+
+</menu>

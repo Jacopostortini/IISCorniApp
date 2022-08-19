@@ -1,0 +1,52 @@
+<resources>
+    <string name="shared_preferences_key">com.example.iiscorni.preferences</string>
+    <string name="circ_fam_sharedpref">sharedpreferenceskeyforcircolarifamiglie</string>
+    <string name="circ_doc_sharedpref">sharedpreferenceskeyforcircolaridocenti</string>
+    <string name="circ_ata_sharedpref">sharedpreferenceskeyforcircolariata</string>
+    <string name="notification_id">sharedpreferenceskeyfornotificationid</string>
+
+    <string name="app_name">IIS Corni</string>
+    <string name="nav_header_title">Istituto d\'Istruzione Superiore Fermo Corni</string>
+    <string name="action_settings">Impostazioni Notifiche</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_circolari">Circolari</string>
+    <string name="menu_circ_all">Tutte</string>
+    <string name="menu_circ_fam">Famiglie</string>
+    <string name="menu_circ_doc">Docenti</string>
+    <string name="menu_circ_ata">Personale ATA</string>
+
+    <string name="menu_registro">Registro elettronico</string>
+    <string name="menu_orari">Orario delle lezioni</string>
+    <string name="menu_orario_diurni">Corsi diurni</string>
+    <string name="menu_orario_serali">Corsi serali</string>
+
+    <string name="registro_app_non_trovata">App Classeviva non trovata</string>
+
+    <string name="title_activity_settings">Imposta notifiche</string>
+    <string name="share_url">Condividi URL corrente</string>
+
+    <!-- Preference Titles -->
+    <string name="notification_header">Notifiche</string>
+
+    <!-- Messages Preferences -->
+    <string name="circ_fam_not">Nuove circolari per le famiglie</string>
+    <string name="circ_doc_not">Nuove circolari per i docenti</string>
+    <string name="circ_ata_not">Nuove circolari per il personale ATA</string>
+
+    <!--Usate anche come tag dei rispettivi worker-->
+    <string name="circ_fam_pref">preference_circolari_famiglie</string>
+    <string name="circ_doc_pref">preference_circolari_docenti</string>
+    <string name="circ_ata_pref">preference_circolari_ata</string>
+
+    <string name="notification_channel_id">com.example.iiscorni.notifiche_circolari</string>
+    <string name="notification_channel_name">Notifiche circolari</string>
+    <string name="notification_channel_description">Notifiche sulle nuove circolari che vengono pubblicate</string>
+
+    <string name="fam_notification_description">Nuova circolare per le famiglie</string>
+    <string name="doc_notification_description">Nuova circolare per i docenti</string>
+    <string name="ata_notification_description">Nuova circolare per il personale ATA</string>
+
+
+
+</resources>
